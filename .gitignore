@@ -5,3 +5,11 @@ tmp/
 
 .terraform
 terraform.tfstate*
+.terraform.lock.hcl
+
+# Spinnaker
+.backup
+part-1/03-spinnaker/config
+part-1/03-spinnaker/default/history
+part-1/03-spinnaker/default/staging
+gcs-account.json
