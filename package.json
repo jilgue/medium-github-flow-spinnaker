@@ -1,0 +1,12 @@
+{
+  "name": "medium-github-flow-spinnaker",
+  "version": "1.0.0",
+  "description": "simple node app",
+  "main": "index.js",
+  "repository": "git@github.com:jilgue/medium-github-flow-spinnaker.git",
+  "author": "César M. Cristóbal <cesar@callepuzzle.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

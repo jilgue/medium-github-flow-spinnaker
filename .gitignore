@@ -13,3 +13,6 @@ infra/part-1/03-spinnaker/config
 infra/part-1/03-spinnaker/default/history
 infra/part-1/03-spinnaker/default/staging
 gcs-account.json
+
+# Node
+node_modules/
