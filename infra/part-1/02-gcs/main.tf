@@ -23,13 +23,13 @@ module "gcs_service_account" {
 
 resource "local_file" "key_decode" {
   content  = module.gcs_service_account.key_decode
-  filename = "${path.module}/../spinnaker/gcs-account.json"
+  filename = "${path.module}/../03-spinnaker/gcs-account.json"
 }
 
 resource "google_storage_bucket" "this" {
-  name          = "spinnaker"
+  name          = "spin-a83f8821-132b-4a68-a0d7-c50b505aa8f3"
   storage_class = "REGIONAL"
-  location      = "US"
+  location      = "us-east1"
   project       = var.project
   force_destroy = true
 }
